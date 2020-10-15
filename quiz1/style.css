@@ -1,0 +1,91 @@
+.navbarColor {
+    background-color: #333333;
+}
+
+.welcomeBody {
+    background-image: url('picture/bg2.jpg');
+    background-size: 100%;
+}
+.welcomeText {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-size: 150px;
+    color: white;
+    text-shadow: 3px -2px black;
+    text-decoration: underline;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.welcomeMsg {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px -2px black;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.welcomeMade {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px -2px black;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.contentBody {
+    background-color: white;
+}
+
+.containerSlide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.slider-wrapper {
+    width: 1200px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.inner-wrapper {
+    width: 300%;
+    height: 100%;
+    position: relative;
+    left: 0%;
+}
+
+.slide {
+    width: calc(100% / 3);
+    height: 100%;
+    float: left;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 30px;
+    height: 30px;
+    border-top: 2px solid black;
+    position: absolute;
+    cursor: pointer;
+}
+
+.prev {
+    border-left: 2px solid black;
+    left: 10%;
+    transform: rotate(-45deg);
+}
+
+.next {
+    border-right: 2px solid black;
+    right: 10%;
+    transform: rotate(45deg);
+}
